@@ -1,5 +1,5 @@
-.skill {
-    width: 250px;
+.project {
+    width: 350px;
     background-color: red;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     text-align: center;
 }
 
-.icon {
+.image {
     height: 60px;
     width: 60px;
     background-color: #faf4f4;
@@ -15,4 +15,9 @@
 
 .description {
 
+}
+
+.button {
+    background-color: #46889a;
+    margin-top: 10px;
 }
