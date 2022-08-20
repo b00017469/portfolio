@@ -2,6 +2,7 @@ import React from 'react';
 
 import './App.css';
 
+import Contacts from './contacts/Contacts';
 import Header from './header/Header';
 import Home from './home/Home';
 import Projects from './projects/Projects';
@@ -14,6 +15,7 @@ const App = () => {
       <Home />
       <Skills />
       <Projects />
+      <Contacts />
     </div>
   );
 };
