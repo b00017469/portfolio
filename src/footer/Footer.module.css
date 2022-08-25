@@ -1,0 +1,30 @@
+.blockFooter {
+    background-color: darkslategrey;
+}
+
+.title {
+    background-color: #d2cece;
+}
+
+.footerContainer {
+    background-color: darkslategrey;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.socialContainer {
+    width: 280px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid;
+}
+
+.social {
+    width: 50px;
+    height: 50px;
+    background-color: olive;
+}
+
+.rights {
+    padding: 10px;
+}
