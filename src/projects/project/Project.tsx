@@ -10,11 +10,12 @@ type SkillPropsType = {
 const Project = ({ title, description }: SkillPropsType) => {
   return (
     <div className={style.project}>
-      <div className={style.image} />
-      <button type="button" className={style.button}>
-        Open
-      </button>
-      <h3>{title}</h3>
+      <div className={style.image}>
+        <a className={style.button} href="github.com">
+          Open
+        </a>
+      </div>
+      <h3 className={style.title}>{title}</h3>
       <span className={style.description}>{description}</span>
     </div>
   );

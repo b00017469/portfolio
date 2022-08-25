@@ -8,16 +8,25 @@
 }
 
 .image {
-    height: 60px;
-    width: 60px;
+    height: 200px;
+    width: 100%;
     background-color: #faf4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    background-color: orange;
 }
 
 .description {
-
+  background-color: orange;
 }
 
 .button {
     background-color: #46889a;
-    margin-top: 10px;
+    text-decoration: none;
+    user-select: none;
+    padding: 10px 25px;
 }

@@ -3,6 +3,7 @@ import React from 'react';
 import './App.css';
 
 import Contacts from './contacts/Contacts';
+import Footer from './footer/Footer';
 import Header from './header/Header';
 import Home from './home/Home';
 import Projects from './projects/Projects';
@@ -16,6 +17,7 @@ const App = () => {
       <Skills />
       <Projects />
       <Contacts />
+      <Footer />
     </div>
   );
 };

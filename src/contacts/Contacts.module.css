@@ -1,19 +1,27 @@
 .contactsBlock {
-    height: 100vh;
+    min-height: 50vh;
     background-color: #519a46;
 }
 
 .contactsContainer{
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: space-between;
 }
 
 .title {
     background-color: #d2cece;
 }
 
-.contacts {
+.form {
     border: 1px solid;
-    width: 100%;
+    width: 300px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.button {
+    width: 150px;
 }
 
